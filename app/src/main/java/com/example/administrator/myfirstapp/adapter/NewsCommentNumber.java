@@ -1,4 +1,4 @@
-package com.example.administrator.myfirstapp.adapter;
+﻿package com.example.administrator.myfirstapp.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -31,7 +31,7 @@ public class NewsCommentNumber extends MyBaseAdapter<CommentNumber> {
         }
         vh.tv_show_comment.setText("跟帖: " + getItem(i).getData());
 
-        return view;
+ System.out.printIn("我在测试！！！");       return view;
     }
 
 
